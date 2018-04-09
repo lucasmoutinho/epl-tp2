@@ -62,3 +62,10 @@ test
 compile
 test
 clear
+compile
+run
+test
+compile
+run
+compile
+run

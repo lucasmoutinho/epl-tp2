@@ -1,7 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/fred/Desktop/tp2-2018/epl-scala/src/main/scala/Main.scala:7:20: object creation impossible, since method eval in trait Expression of type ()Int is not defined[0m
-[0m[[0m[31merror[0m] [0m[0m  val lit100 = new Core.Literal(100) with Eval.Expression[0m
-[0m[[0m[31merror[0m] [0m[0m                   ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/fred/Desktop/tp2-2018/epl-scala/src/main/scala/Main.scala:8:20: object creation impossible, since method eval in trait Expression of type ()Int is not defined[0m
-[0m[[0m[31merror[0m] [0m[0m  val lit500 = new Core.Literal(500) with Eval.Expression[0m
-[0m[[0m[31merror[0m] [0m[0m                   ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fred/Documents/UNB/TP2/trab1/epl-tp2/epl-scala/src/main/scala/Main.scala:12:38: not found: value sume1[0m
+[0m[[0m[31merror[0m] [0m[0m  val sum2 = new AddEval.Add(lit100, sume1)  [0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
