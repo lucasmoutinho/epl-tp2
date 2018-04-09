@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/tp2-2018/epl-scala/src/main/scala/Main.scala:10:17: not found: value EvalAdd[0m
+[0m[[0m[31merror[0m] [0m[0m  val sum = new EvalAdd.Add(lit100, lit500) [0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
