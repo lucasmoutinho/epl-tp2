@@ -1,0 +1,4 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mTestSub:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAn Sub expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return String (100 + 200) when we call Sub(Literal(100), Literal(200).print())[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 300 when we call call Sub(Literal(100), Literal(200)).eval()[0m[0m

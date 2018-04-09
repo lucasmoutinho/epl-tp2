@@ -1,0 +1,4 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mTestAdd:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAn Add expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return String (100 + 200) when we call Add(Literal(100), Literal(200).print())[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 300 when we call call Add(Literal(100), Literal(200)).eval()[0m[0m
