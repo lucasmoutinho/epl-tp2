@@ -12,6 +12,7 @@ object Main extends App {
   val sum2 = new AddEval.Add(lit100, sum1)
   val sum3 = new AddEval.Add(sum2, sum1)
   val sub = new SubEval.Sub(lit100, lit500)
+  val sub2 = new SubEval.Sub(sum3, lit500)
   val mult = new MultEval.Mult(lit100, lit500)
 
   println(sum1.print() + " = " + sum1.eval() + "\n")
@@ -21,6 +22,8 @@ object Main extends App {
   println(sum3.print() + " = " + sum3.eval() + "\n")
 
   println(sub.print() + " = " + sub.eval() + "\n")
+
+  println(sub2.print() + " = " + sub2.eval() + "\n")
 
   println(mult.print() + " = " + mult.eval() + "\n")
 }
