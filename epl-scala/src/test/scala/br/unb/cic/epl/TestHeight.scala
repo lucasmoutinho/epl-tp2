@@ -10,25 +10,28 @@ class TestHeight extends FlatSpec with Matchers with GivenWhenThen with BeforeAn
 
     behavior of "An Height of expression"
 
-    var literal100: Height.Literal = _
-    var literal200: Height.Literal = _
-    var literal2: Height.Literal = _
-    var literal5: Height.Literal = _
+    var literal300: Height.Literal = _
+    var literal400: Height.Literal = _
+    var literal500: Height.Literal = _
+    var literal600: Height.Literal = _
+    var literal700: Height.Literal = _
+    var literal800: Height.Literal = _
 
     before {
-        literal100 = new Core.Literal(100) with Height.Literal
-        literal200 = new Core.Literal(200) with Height.Literal
-        literal2 = new Core.Literal(2) with Height.Literal
-        literal5 = new Core.Literal(5) with Height.Literal
+        literal300 = new Core.Literal(300) with Height.Literal
+        literal400 = new Core.Literal(400) with Height.Literal
+        literal500 = new Core.Literal(500) with Height.Literal
+        literal600 = new Core.Literal(600) with Height.Literal
+        literal700 = new Core.Literal(700) with Height.Literal
+        literal800 = new Core.Literal(800) with Height.Literal
     }
 
-    it should "return 3 when we call add.height" in {                                                                                                             
-        val add1 = new AddHeight.Add(literal100,literal200)
-        val add2 = new AddHeight.Add(literal2,literal5)
-        val add = new AddHeight.Add(add1,add2)
-        println(add1.height())
-        println(add2.height())
-        println(add.height())
-        add.height() should be (3)
+    it should "return 4 when we call sub.height" in {                                                                                                             
+        val add1 = new AddHeight.Add(literal300,literal400)
+        val add2 = new AddHeight.Add(literal500,literal600)
+        val sub1 = new SubHeight.Sub(add1,literal700)
+        val mult1 = new MultHeight.Mult(add2,literal800)
+        val sub = new SubHeight.Sub(mult1,sub1)
+        sub.height() should be (4)
     }
 }

@@ -2,47 +2,29 @@
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
 [0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/test/scala/br/unb/cic/epl/TestSub.scala, /home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/test/scala/br/unb/cic/epl/TestMult.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/test/scala/br/unb/cic/epl/TestHeight.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(br.unb.cic.epl.TestSub, br.unb.cic.epl.TestMult)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(br.unb.cic.epl.TestHeight)[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(br.unb.cic.epl.TestSub, br.unb.cic.epl.TestMult)[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/test/scala/br/unb/cic/epl/TestSub.scala, /home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/test/scala/br/unb/cic/epl/TestMult.scala)[0m
-[0m[[0m[0minfo[0m] [0m[0mCompiling 2 Scala sources to /home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/target/scala-2.12/test-classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(br.unb.cic.epl.TestHeight)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/test/scala/br/unb/cic/epl/TestHeight.scala)[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/target/scala-2.12/test-classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.4[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.4[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 23b097b7 for Scala compiler version 2.12.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 322a6e6 for Scala compiler version 2.12.4[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/moutinho/.sbt/boot/scala-2.12.4/lib/scala-library.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/target/scala-2.12/test-classes:/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/target/scala-2.12/classes:/home/moutinho/.ivy2/cache/org.typelevel/cats-core_2.12/jars/cats-core_2.12-1.0.1.jar:/home/moutinho/.ivy2/cache/org.typelevel/cats-macros_2.12/jars/cats-macros_2.12-1.0.1.jar:/home/moutinho/.ivy2/cache/org.typelevel/machinist_2.12/jars/machinist_2.12-0.6.2.jar:/home/moutinho/.sbt/boot/scala-2.12.4/lib/scala-reflect.jar:/home/moutinho/.ivy2/cache/org.typelevel/cats-kernel_2.12/jars/cats-kernel_2.12-1.0.1.jar:/home/moutinho/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.4.jar:/home/moutinho/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.0.4.jar:/home/moutinho/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.5.jar:/home/moutinho/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.4.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 3.455267916 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 4.144162035 s[0m
 [0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from br.unb.cic.epl.TestSub...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(br.unb.cic.epl.TestSub)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(br.unb.cic.epl.TestSub)[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(br.unb.cic.epl.TestSub,ModifiedNames(changes = UsedName(literal300,[Default]), UsedName(literal500,[Default]), UsedName(literal800,[Default]), UsedName(literal400,[Default]), UsedName(literal600,[Default]), UsedName(literal700,[Default]))) invalidates 1 classes due to The br.unb.cic.epl.TestSub has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(literal300,[Default]), UsedName(literal500,[Default]), UsedName(literal800,[Default]), UsedName(literal400,[Default]), UsedName(literal600,[Default]), UsedName(literal700,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(br.unb.cic.epl.TestSub)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from br.unb.cic.epl.TestMult...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(br.unb.cic.epl.TestMult)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(br.unb.cic.epl.TestMult)[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(br.unb.cic.epl.TestMult,ModifiedNames(changes = UsedName(literal300,[Default]), UsedName(literal500,[Default]), UsedName(literal800,[Default]), UsedName(literal400,[Default]), UsedName(literal600,[Default]), UsedName(literal700,[Default]))) invalidates 1 classes due to The br.unb.cic.epl.TestMult has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(literal300,[Default]), UsedName(literal500,[Default]), UsedName(literal800,[Default]), UsedName(literal400,[Default]), UsedName(literal600,[Default]), UsedName(literal700,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(br.unb.cic.epl.TestMult)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
 [0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m
