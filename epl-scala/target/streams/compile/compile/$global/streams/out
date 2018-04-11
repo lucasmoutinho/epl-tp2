@@ -1,10 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/main/scala/br/unb/cic/epl/AddHeight.scala:11:14: value lhs is not a member of br.unb.cic.epl.Core.Expression[0m
-[0m[[0m[31merror[0m] [0m[0m      if(exp.lhs.isInstanceOf[Core.Literal]){[0m
-[0m[[0m[31merror[0m] [0m[0m             ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/main/scala/br/unb/cic/epl/AddHeight.scala:15:36: value lhs is not a member of br.unb.cic.epl.Core.Expression[0m
-[0m[[0m[31merror[0m] [0m[0m      var tamanhoLeft = height(exp.lhs)[0m
+[0m[[0m[31merror[0m] [0m[0m/home/diogo/Documents/UnB/TP2/mouts/epl-tp2/epl-scala/src/main/scala/br/unb/cic/epl/Height.scala:12:36: value heigth is not a member of br.unb.cic.epl.Height.package.Literal[0m
+[0m[[0m[31merror[0m] [0m[0m    override def tam(): Int = this.heigth() - 1[0m
 [0m[[0m[31merror[0m] [0m[0m                                   ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/main/scala/br/unb/cic/epl/AddHeight.scala:16:37: value rhs is not a member of br.unb.cic.epl.Core.Expression[0m
-[0m[[0m[31merror[0m] [0m[0m      var tamanhoRight = height(exp.rhs)[0m
-[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
-[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

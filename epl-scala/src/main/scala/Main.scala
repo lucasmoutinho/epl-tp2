@@ -3,6 +3,8 @@ import br.unb.cic.epl.Eval
 import br.unb.cic.epl.AddEval
 import br.unb.cic.epl.SubEval
 import br.unb.cic.epl.MultEval
+import br.unb.cic.epl.Height
+import br.unb.cic.epl.AddHeight
 
 object Main extends App {
   val lit100 = new Core.Literal(100) with Eval.Literal
