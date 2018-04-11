@@ -2,26 +2,45 @@
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
 [0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+<<<<<<< HEAD
 [0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/test/scala/br/unb/cic/epl/TestHeight.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(br.unb.cic.epl.TestHeight)[0m
+=======
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/home/diogo/Documents/UnB/TP2/mouts/epl-tp2/epl-scala/src/test/scala/br/unb/cic/epl/TestSub.scala, /home/diogo/Documents/UnB/TP2/mouts/epl-tp2/epl-scala/src/test/scala/br/unb/cic/epl/TestMult.scala, /home/diogo/Documents/UnB/TP2/mouts/epl-tp2/epl-scala/src/test/scala/br/unb/cic/epl/TestAdd.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(br.unb.cic.epl.TestSub, br.unb.cic.epl.TestMult, br.unb.cic.epl.TestAdd)[0m
+>>>>>>> f0c1e4599f094866e93822af669cec730135f034
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+<<<<<<< HEAD
 [0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(br.unb.cic.epl.TestHeight)[0m
 [0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/test/scala/br/unb/cic/epl/TestHeight.scala)[0m
 [0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/target/scala-2.12/test-classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.4[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.4[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 322a6e6 for Scala compiler version 2.12.4[0m
+=======
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(br.unb.cic.epl.TestSub, br.unb.cic.epl.TestMult, br.unb.cic.epl.TestAdd)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/diogo/Documents/UnB/TP2/mouts/epl-tp2/epl-scala/src/test/scala/br/unb/cic/epl/TestSub.scala, /home/diogo/Documents/UnB/TP2/mouts/epl-tp2/epl-scala/src/test/scala/br/unb/cic/epl/TestMult.scala, /home/diogo/Documents/UnB/TP2/mouts/epl-tp2/epl-scala/src/test/scala/br/unb/cic/epl/TestAdd.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 5 sources: invalidated sources (3) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 5 Scala sources to /home/diogo/Documents/UnB/TP2/mouts/epl-tp2/epl-scala/target/scala-2.12/test-classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.4[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 3880bdaf for Scala compiler version 2.12.4[0m
+>>>>>>> f0c1e4599f094866e93822af669cec730135f034
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/moutinho/.sbt/boot/scala-2.12.4/lib/scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/diogo/.sbt/boot/scala-2.12.4/lib/scala-library.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+<<<<<<< HEAD
 [0m[[0m[0mdebug[0m] [0m[0m	/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/target/scala-2.12/test-classes:/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/target/scala-2.12/classes:/home/moutinho/.ivy2/cache/org.typelevel/cats-core_2.12/jars/cats-core_2.12-1.0.1.jar:/home/moutinho/.ivy2/cache/org.typelevel/cats-macros_2.12/jars/cats-macros_2.12-1.0.1.jar:/home/moutinho/.ivy2/cache/org.typelevel/machinist_2.12/jars/machinist_2.12-0.6.2.jar:/home/moutinho/.sbt/boot/scala-2.12.4/lib/scala-reflect.jar:/home/moutinho/.ivy2/cache/org.typelevel/cats-kernel_2.12/jars/cats-kernel_2.12-1.0.1.jar:/home/moutinho/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.4.jar:/home/moutinho/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.0.4.jar:/home/moutinho/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.5.jar:/home/moutinho/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.4.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0mScala compilation took 4.144162035 s[0m
 [0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
@@ -31,3 +50,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m
+=======
+[0m[[0m[0mdebug[0m] [0m[0m	/home/diogo/Documents/UnB/TP2/mouts/epl-tp2/epl-scala/target/scala-2.12/test-classes:/home/diogo/Documents/UnB/TP2/mouts/epl-tp2/epl-scala/target/scala-2.12/classes:/home/diogo/.ivy2/cache/org.typelevel/cats-core_2.12/jars/cats-core_2.12-1.0.1.jar:/home/diogo/.ivy2/cache/org.typelevel/cats-macros_2.12/jars/cats-macros_2.12-1.0.1.jar:/home/diogo/.ivy2/cache/org.typelevel/machinist_2.12/jars/machinist_2.12-0.6.2.jar:/home/diogo/.sbt/boot/scala-2.12.4/lib/scala-reflect.jar:/home/diogo/.ivy2/cache/org.typelevel/cats-kernel_2.12/jars/cats-kernel_2.12-1.0.1.jar:/home/diogo/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.4.jar:/home/diogo/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.0.4.jar:/home/diogo/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.5.jar:/home/diogo/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 10.003998545 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+>>>>>>> f0c1e4599f094866e93822af669cec730135f034
