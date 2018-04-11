@@ -82,3 +82,6 @@ teste
 test
 compile
 test
+compile
+val lit100 = new Core.Literal(100) with Eval.Literal
+console
