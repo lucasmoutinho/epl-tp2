@@ -6,7 +6,6 @@ package object Height {
   }
 
   trait Literal extends Core.Literal with Expression {
-    override
-    def height() = 0
+    override def height() = 0
   }
 }

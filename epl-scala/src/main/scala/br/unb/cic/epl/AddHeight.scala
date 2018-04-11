@@ -5,8 +5,19 @@ package object AddHeight {
     type T = Height.Expression
     lhs = l
     rhs = r
+    private var tamanho = 0
 
-    override def height(): Int = {
-      
+    override def height(exp: Core.Expression): Int = {
+      if(exp.lhs.isInstanceOf[Core.Literal]){
+        return 1
+      }
+
+      var tamanhoLeft = height(exp.lhs)
+      var tamanhoRight = height(exp.rhs)
+      if(tamanhoLeft > tamanhoRight){
+        return tamanhoLeft + 1
+      }
+      return tamanhoRight + 1
     }
+  }
 }
