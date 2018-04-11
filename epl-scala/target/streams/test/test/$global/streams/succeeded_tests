@@ -1,8 +1,8 @@
 #Successful Tests
-#Wed Apr 11 20:36:41 BRT 2018
+#Wed Apr 11 20:45:32 BRT 2018
 br.unb.cic.epl.TestNode=1523474753496
-br.unb.cic.epl.TestMult=1523489801573
-br.unb.cic.epl.TestSub=1523489801575
-br.unb.cic.epl.TestAdd=1523489801641
-br.unb.cic.epl.TestLiteral=1523489801579
-br.unb.cic.epl.TestHeight=1523489801749
+br.unb.cic.epl.TestMult=1523490331720
+br.unb.cic.epl.TestSub=1523490331675
+br.unb.cic.epl.TestAdd=1523490331677
+br.unb.cic.epl.TestLiteral=1523490331676
+br.unb.cic.epl.TestHeight=1523490331942

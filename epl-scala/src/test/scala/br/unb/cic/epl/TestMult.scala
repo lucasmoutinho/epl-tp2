@@ -10,57 +10,51 @@ class TestMult extends FlatSpec with Matchers with GivenWhenThen with BeforeAndA
 
   behavior of "An Mult expression"
 
-  var literal100: Eval.Literal = _
-  var literal200: Eval.Literal = _
-
-  var literal300: Height.Literal = _
-  var literal400: Height.Literal = _
-  var literal500: Height.Literal = _
-  var literal600: Height.Literal = _
-  var literal700: Height.Literal = _
-  var literal800: Height.Literal = _
+  var literal10: Eval.Literal = _
+  var literal2: Eval.Literal = _
+  var literalN2: Eval.Literal = _
+  var literal0: Eval.Literal = _
 
   before {
-    literal100 = new Core.Literal(100) with Eval.Literal
-    literal200 = new Core.Literal(200) with Eval.Literal
-
-    literal300 = new Core.Literal(300) with Height.Literal
-    literal400 = new Core.Literal(400) with Height.Literal
-    literal500 = new Core.Literal(500) with Height.Literal
-    literal600 = new Core.Literal(600) with Height.Literal
-    literal700 = new Core.Literal(700) with Height.Literal
-    literal800 = new Core.Literal(800) with Height.Literal
+    literal10 = new Core.Literal(10) with Eval.Literal
+    literal2 = new Core.Literal(2) with Eval.Literal
+    literalN2 = new Core.Literal(-2) with Eval.Literal
+    literal0 = new Core.Literal(0) with Eval.Literal
   }
 
-  it should "return String (100 * 200) when we call Mult(Literal(100), Literal(200).print())" in {
-    val mult = new MultEval.Mult(literal100, literal200)
+  it should "return String (10 * 2) when we call Mult(Literal(10), Literal(2).print())" in {
+    val mult = new MultEval.Mult(literal10, literal2)
   
-    mult.print() should be ("(100 * 200)")
+    mult.print() should be ("(10 * 2)")
   }
 
-  it should "return 20000 when we call call Mult(Literal(100), Literal(200)).eval()" in {
-    val mult = new MultEval.Mult(literal100, literal200)
+  it should "return 20 when we call call Mult(Literal(10), Literal(2)).eval()" in {
+    val mult = new MultEval.Mult(literal10, literal2)
 
-    mult.eval() should be (20000)
+    mult.eval() should be (20)
   }
 
-  it should "return 1 when we call literal300.height" in {                                                                                                             
-    literal300.height() should be (1)
+    it should "return -4 when we call call Mult(Literal(-2), Literal(2)).eval()" in {
+      val mult = new MultEval.Mult(literalN2, literal2)
+
+      mult.eval() should be (-4)
   }
 
-  it should "return 3 when we call Mult.height" in {                                                                                                             
-    val mult1 = new MultHeight.Mult(literal300,literal400)
-    val mult2 = new MultHeight.Mult(literal500,literal600)
-    val mult = new MultHeight.Mult(mult1,mult2)
-    mult.height() should be (3)
+    it should "return 0 when we call call Mult(Literal(-2), Literal(0)).eval()" in {
+      val mult = new MultEval.Mult(literalN2, literal0)
+
+      mult.eval() should be (0)
   }
 
-  it should "return 5 when we call Mult.height" in {                                                                                                             
-    val mult1 = new MultHeight.Mult(literal300,literal400)
-    val mult2 = new MultHeight.Mult(literal500,literal600)
-    val mult3 = new MultHeight.Mult(mult1,mult2)
-    val mult4 = new MultHeight.Mult(mult3, literal700)
-    val mult = new MultHeight.Mult(mult4, literal800)
-    mult.height() should be (5)
+    it should "return 0 when we call call Mult(Literal(0), Literal(0)).eval()" in {
+      val mult = new MultEval.Mult(literal0, literal0)
+
+      mult.eval() should be (0)
+  }
+
+    it should "return 4 when we call call Mult(Literal(-2), Literal(-2)).eval()" in {
+      val mult = new MultEval.Mult(literalN2, literalN2)
+
+      mult.eval() should be (4)
   }
 }
