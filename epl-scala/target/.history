@@ -90,3 +90,4 @@ compile
 val lit100 = new Core.Literal(100) with Eval.Literal
 console
 >>>>>>> develop
+compile
