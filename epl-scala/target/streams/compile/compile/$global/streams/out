@@ -1,4 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/home/fred/Documents/UNB/TP2/trab1/epl-tp2/epl-scala/src/main/scala/Main.scala:12:38: not found: value sume1[0m
-[0m[[0m[31merror[0m] [0m[0m  val sum2 = new AddEval.Add(lit100, sume1)  [0m
-[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/main/scala/br/unb/cic/epl/Node.scala:10:17: a pure expression does nothing in statement position[0m
+[0m[[0m[33mwarn[0m] [0m[0m    return this.left[0m
+[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/main/scala/br/unb/cic/epl/Node.scala:10:5: enclosing method referenceLeft has result type Unit: return value discarded[0m
+[0m[[0m[33mwarn[0m] [0m[0m    return this.left[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m

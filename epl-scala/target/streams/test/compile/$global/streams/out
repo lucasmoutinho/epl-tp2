@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/test/scala/br/unb/cic/epl/TestNode.scala:28:11: value refereceLeft is not a member of br.unb.cic.epl.Node[0m
+[0m[[0m[31merror[0m] [0m[0m    nodeA.refereceLeft(nodeB) should be(nodeB)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
