@@ -8,7 +8,7 @@ import org.scalatest.BeforeAndAfter
 
 class TestHeight extends FlatSpec with Matchers with GivenWhenThen with BeforeAndAfter {
 
-    behavior of "An Height of expression"
+    behavior of "An Height of multiple expressions"
 
     var literal300: Height.Literal = _
     var literal400: Height.Literal = _

@@ -10,8 +10,11 @@ class TestMult extends FlatSpec with Matchers with GivenWhenThen with BeforeAndA
 
   behavior of "An Mult expression"
 
+  var literal000: Eval.Literal = _
   var literal100: Eval.Literal = _
   var literal200: Eval.Literal = _
+  var literal100N: Eval.Literal = _
+  var literal200N: Eval.Literal = _
 
   var literal300: Height.Literal = _
   var literal400: Height.Literal = _
@@ -21,8 +24,11 @@ class TestMult extends FlatSpec with Matchers with GivenWhenThen with BeforeAndA
   var literal800: Height.Literal = _
 
   before {
+    literal000 = new Core.Literal(0) with Eval.Literal
     literal100 = new Core.Literal(100) with Eval.Literal
     literal200 = new Core.Literal(200) with Eval.Literal
+    literal100N = new Core.Literal(-100) with Eval.Literal
+    literal200N = new Core.Literal(-200) with Eval.Literal
 
     literal300 = new Core.Literal(300) with Height.Literal
     literal400 = new Core.Literal(400) with Height.Literal
@@ -42,6 +48,37 @@ class TestMult extends FlatSpec with Matchers with GivenWhenThen with BeforeAndA
     val mult = new MultEval.Mult(literal100, literal200)
 
     mult.eval() should be (20000)
+  }
+
+
+  it should "return 0 when we call call Mult(Literal(000), Literal(000)).eval()" in {
+    val mult = new MultEval.Mult(literal000, literal000)
+
+    mult.eval() should be (0)
+  }
+
+  it should "return 0 when we call call Mult(Literal(000), Literal(100)).eval()" in {
+    val mult = new MultEval.Mult(literal000, literal100)
+
+    mult.eval() should be (0)
+  }
+
+  it should "return 0 when we call call Mult(Literal(000), Literal(100N)).eval()" in {
+    val mult = new MultEval.Mult(literal000, literal100N)
+
+    mult.eval() should be (0)
+  }
+
+  it should "return 20000 when we call call Mult(Literal(200N), Literal(100N)).eval()" in {
+    val mult = new MultEval.Mult(literal200N, literal100N)
+
+    mult.eval() should be (20000)
+  }
+
+  it should "return -20000 when we call call Mult(Literal(100N), Literal(200)).eval()" in {
+    val mult = new MultEval.Mult(literal100N, literal200)
+
+    mult.eval() should be (-20000)
   }
 
   it should "return 1 when we call literal300.height" in {                                                                                                             

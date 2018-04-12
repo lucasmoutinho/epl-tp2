@@ -1,0 +1,7 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mTestMult:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAn Mult expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return String (100 * 200) when we call Mult(Literal(100), Literal(200).print())[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 20000 when we call call Mult(Literal(100), Literal(200)).eval()[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 1 when we call literal300.height[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 3 when we call Mult.height[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 5 when we call Mult.height[0m[0m

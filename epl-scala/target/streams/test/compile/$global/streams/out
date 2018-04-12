@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/test/scala/br/unb/cic/epl/TestLiteral.scala:18:5: not found: value literal000[0m
+[0m[[0m[31merror[0m] [0m[0m    literal000 = new Core.Literal(0)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/test/scala/br/unb/cic/epl/TestLiteral.scala:20:5: not found: value literal100N[0m
+[0m[[0m[31merror[0m] [0m[0m    literal100N = new Core.Literal(-100)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/test/scala/br/unb/cic/epl/TestLiteral.scala:28:5: not found: value literal000[0m
+[0m[[0m[31merror[0m] [0m[0m    literal000.print() should be ("0")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/test/scala/br/unb/cic/epl/TestLiteral.scala:32:5: not found: value literal100N[0m
+[0m[[0m[31merror[0m] [0m[0m    literal100N.print() should be ("-100")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

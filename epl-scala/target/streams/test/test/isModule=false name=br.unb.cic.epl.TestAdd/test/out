@@ -1,0 +1,12 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mTestAdd:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAn Add expression[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return String (100 + 200) when we call Add(Literal(100), Literal(200)).print()[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 300 when we call call Add(Literal(100), Literal(200)).eval()[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 0 when we call call Add(Literal(000), Literal(000)).eval()[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 100 when we call call Add(Literal(000), Literal(100)).eval()[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return -100 when we call call Add(Literal(000), Literal(100N)).eval()[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return -300 when we call call Add(Literal(200N), Literal(100N)).eval()[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 100 when we call call Add(Literal(100N), Literal(200)).eval()[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 1 when we call literal300.height[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 3 when we call add.height[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return 5 when we call add.height[0m[0m
