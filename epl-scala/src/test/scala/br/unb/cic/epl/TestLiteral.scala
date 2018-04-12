@@ -41,6 +41,5 @@ class TestLiteral extends FlatSpec with Matchers with GivenWhenThen with BeforeA
     val literal0 = new Core.Literal(0) with Eval.Literal
     literal0.eval() should be (0)
   }
-  
 
 }
