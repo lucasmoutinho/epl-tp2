@@ -1,4 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/home/diogo/Documents/UnB/TP2/mouts/epl-tp2/epl-scala/src/main/scala/br/unb/cic/epl/Height.scala:12:36: value heigth is not a member of br.unb.cic.epl.Height.package.Literal[0m
-[0m[[0m[31merror[0m] [0m[0m    override def tam(): Int = this.heigth() - 1[0m
-[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m

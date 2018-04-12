@@ -1,18 +1,7 @@
 #Successful Tests
-<<<<<<< HEAD
-#Wed Apr 11 20:57:00 BRT 2018
-br.unb.cic.epl.TestNode=1523474753496
-br.unb.cic.epl.TestMult=1523491019785
-br.unb.cic.epl.TestSub=1523491019767
-br.unb.cic.epl.TestAdd=1523491019767
-br.unb.cic.epl.TestLiteral=1523491019767
-br.unb.cic.epl.TestHeight=1523491020331
-=======
-#Wed Apr 11 20:55:34 BRT 2018
-br.unb.cic.epl.TestNode=1523474753496
-br.unb.cic.epl.TestMult=1523490933869
-br.unb.cic.epl.TestSub=1523490933943
-br.unb.cic.epl.TestAdd=1523490933876
-br.unb.cic.epl.TestLiteral=1523490934004
-br.unb.cic.epl.TestHeight=1523490933878
->>>>>>> f0c1e4599f094866e93822af669cec730135f034
+#Wed Apr 11 23:49:02 BRT 2018
+br.unb.cic.epl.TestMult=1523501342609
+br.unb.cic.epl.TestSub=1523501342613
+br.unb.cic.epl.TestAdd=1523501342615
+br.unb.cic.epl.TestLiteral=1523501342633
+br.unb.cic.epl.TestHeight=1523501342747
