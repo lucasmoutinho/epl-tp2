@@ -1,6 +1,7 @@
 [0m[[0m[0minfo[0m] [0m[0m[32mTestLiteral:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mA Literal[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return string 0 when we call literal000.print()[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should return string 100 when we call literal100.print()[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should return string 0 when we call literal0.print()[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should return string -100 when we call literalN100.print()[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should return Integer 1000 when we call literal1000.eval()[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return string -100 when we call literal100N.print()[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return Integer 500 when we call literal1000.eval()[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return Integer 0 when we call literal0.eval()[0m[0m

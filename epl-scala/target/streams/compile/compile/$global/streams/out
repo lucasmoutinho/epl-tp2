@@ -1,0 +1,48 @@
+[0m[[0m[31merror[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/main/scala/Main.scala:15:33: not found: value lit100[0m
+[0m[[0m[31merror[0m] [0m[0m  val hadd1 = new AddHeight.Add(lit100,lit200)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/main/scala/Main.scala:15:40: not found: value lit200[0m
+[0m[[0m[31merror[0m] [0m[0m  val hadd1 = new AddHeight.Add(lit100,lit200)[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/main/scala/Main.scala:16:33: not found: value add1[0m
+[0m[[0m[31merror[0m] [0m[0m  val hadd2 = new AddHeight.Add(add1,lit100)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/main/scala/Main.scala:16:38: not found: value lit100[0m
+[0m[[0m[31merror[0m] [0m[0m  val hadd2 = new AddHeight.Add(add1,lit100)[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/main/scala/Main.scala:17:33: not found: value lit100[0m
+[0m[[0m[31merror[0m] [0m[0m  val hsub1 = new SubHeight.Sub(lit100,lit200)[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/main/scala/Main.scala:17:40: not found: value lit200[0m
+[0m[[0m[31merror[0m] [0m[0m  val hsub1 = new SubHeight.Sub(lit100,lit200)[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/main/scala/Main.scala:18:36: not found: value add2[0m
+[0m[[0m[31merror[0m] [0m[0m  val hmult1 = new MultHeight.Mult(add2,sub1)[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/main/scala/Main.scala:18:41: not found: value sub1[0m
+[0m[[0m[31merror[0m] [0m[0m  val hmult1 = new MultHeight.Mult(add2,sub1)[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/main/scala/Main.scala:23:31: not found: value lit100[0m
+[0m[[0m[31merror[0m] [0m[0m  val eadd1 = new AddEval.Add(lit100,lit200)[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/main/scala/Main.scala:23:38: not found: value lit200[0m
+[0m[[0m[31merror[0m] [0m[0m  val eadd1 = new AddEval.Add(lit100,lit200)[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/main/scala/Main.scala:24:31: not found: value add1[0m
+[0m[[0m[31merror[0m] [0m[0m  val eadd2 = new AddEval.Add(add1,lit100)[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/main/scala/Main.scala:24:36: not found: value lit100[0m
+[0m[[0m[31merror[0m] [0m[0m  val eadd2 = new AddEval.Add(add1,lit100)[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/main/scala/Main.scala:25:31: not found: value lit100[0m
+[0m[[0m[31merror[0m] [0m[0m  val esub1 = new SubEval.Sub(lit100,lit200)[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/main/scala/Main.scala:25:38: not found: value lit200[0m
+[0m[[0m[31merror[0m] [0m[0m  val esub1 = new SubEval.Sub(lit100,lit200)[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/main/scala/Main.scala:26:34: not found: value add2[0m
+[0m[[0m[31merror[0m] [0m[0m  val emult1 = new MultEval.Mult(add2,sub1)[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/moutinho/Documents/UNB/TP2/epl-tp2/epl-scala/src/main/scala/Main.scala:26:39: not found: value sub1[0m
+[0m[[0m[31merror[0m] [0m[0m  val emult1 = new MultEval.Mult(add2,sub1)[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
